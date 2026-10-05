@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Persian Silver">
+  <rect width="600" height="800" fill="#E2D5C3"/>
+
+  <g transform="translate(300 195)" fill="#8B6F4E">
+    <!-- Left half (P-like stepped diamond half) -->
+    <path d="M -12 -120
+             L -95 -35
+             L -95 15
+             L -50 15
+             L -50 48
+             L -95 48
+             L -12 145
+             L -12 100
+             L -62 52
+             L -62 -5
+             L -12 -5
+             Z"/>
+    <!-- Right half (S-like stepped diamond half) -->
+    <path d="M 12 -120
+             L 95 -35
+             L 95 -5
+             L 50 -5
+             L 50 28
+             L 95 28
+             L 95 48
+             L 12 145
+             L 12 100
+             L 62 52
+             L 62 48
+             L 50 48
+             L 50 28
+             L 62 28
+             L 62 -5
+             L 12 -5
+             Z"/>
+  </g>
+
+  <text x="300" y="390" text-anchor="middle" fill="#8B6F4E"
+        font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="8">PERSIAN SILVER</text>
+
+  <g fill="#8B6F4E" stroke="#8B6F4E" stroke-width="1.2">
+    <line x1="165" y1="420" x2="282" y2="420" opacity="0.7"/>
+    <line x1="318" y1="420" x2="435" y2="420" opacity="0.7"/>
+    <polygon points="300,412 308,420 300,428 292,420"/>
+  </g>
+
+  <text x="300" y="470" text-anchor="middle" fill="#6B5238"
+        font-family="Tahoma, 'Segoe UI', sans-serif" font-size="18" direction="rtl">&#1575;&#1593;&#1578;&#1605;&#1575;&#1583;&#32;&#1588;&#1605;&#1575;&#32;&#1575;&#1585;&#1586;&#1588;&#1605;&#1606;&#1583;&#1578;&#1585;&#1740;&#1606;&#32;&#1575;&#1606;&#1578;&#1582;&#1575;&#1576;&#32;&#1605;&#1575;&#1587;&#1578;</text>
+  <text x="300" y="502" text-anchor="middle" fill="#6B5238"
+        font-family="Tahoma, 'Segoe UI', sans-serif" font-size="17" direction="rtl">&#1576;&#1607;&#32;&#1575;&#1605;&#1740;&#1583;&#32;&#1575;&#1606;&#1578;&#1582;&#1575;&#1576;&#32;&#1607;&#1575;&#1740;&#32;&#1576;&#1593;&#1583;&#1740;&#32;&#1588;&#1605;&#1575;</text>
+</svg>
