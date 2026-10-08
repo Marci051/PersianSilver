@@ -86,6 +86,18 @@
       max-width: 24rem;
       margin-top: auto;
       margin-bottom: auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .page-photo {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.35;
+      pointer-events: none;
+      z-index: 0;
     }
 
     .nav-link { opacity: 0; }
@@ -319,13 +331,11 @@
     </section>
 
     <section id="view-retail" class="view" hidden>
+      <div class="page-photo" style="background-image:url('assets/1.jpg')"></div>
       <div class="view-inner detail-in">
         <button type="button" data-back class="back-btn mb-7"><span aria-hidden="true">&#8594;</span> <span data-text="back"></span></button>
         <header class="text-center mb-7">
-          <div class="title-mark">
-            <img src="assets/emblem.png" alt="" class="title-mark__emblem" />
-            <h1 class="title-mark__text text-2xl font-bold text-brand-ink tracking-tight" data-page-title></h1>
-          </div>
+          <h1 class="text-2xl font-bold text-brand-ink tracking-tight" data-page-title></h1>
           <div class="accent-line" aria-hidden="true"></div>
         </header>
         <div class="contact-card space-y-5 p-6" data-contact="retail"></div>
@@ -333,13 +343,11 @@
     </section>
 
     <section id="view-wholesale" class="view" hidden>
+      <div class="page-photo" style="background-image:url('assets/2.jpg')"></div>
       <div class="view-inner detail-in">
         <button type="button" data-back class="back-btn mb-7"><span aria-hidden="true">&#8594;</span> <span data-text="back"></span></button>
         <header class="text-center mb-7">
-          <div class="title-mark">
-            <img src="assets/emblem.png" alt="" class="title-mark__emblem" />
-            <h1 class="title-mark__text text-2xl font-bold text-brand-ink tracking-tight" data-page-title></h1>
-          </div>
+          <h1 class="text-2xl font-bold text-brand-ink tracking-tight" data-page-title></h1>
           <div class="accent-line" aria-hidden="true"></div>
         </header>
         <div class="contact-card space-y-5 p-6" data-contact="wholesale"></div>
@@ -347,13 +355,11 @@
     </section>
 
     <section id="view-trade" class="view" hidden>
+      <div class="page-photo" style="background-image:url('assets/3.jpg')"></div>
       <div class="view-inner detail-in">
         <button type="button" data-back class="back-btn mb-7"><span aria-hidden="true">&#8594;</span> <span data-text="back"></span></button>
         <header class="text-center mb-7">
-          <div class="title-mark">
-            <img src="assets/emblem.png" alt="" class="title-mark__emblem" />
-            <h1 class="title-mark__text text-2xl font-bold text-brand-ink tracking-tight" data-page-title></h1>
-          </div>
+          <h1 class="text-2xl font-bold text-brand-ink tracking-tight" data-page-title></h1>
           <div class="accent-line" aria-hidden="true"></div>
         </header>
         <div class="contact-card space-y-5 p-6" data-contact="trade"></div>
